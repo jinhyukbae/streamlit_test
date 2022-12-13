@@ -31,3 +31,11 @@ st.write(two)
 fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12월 한달 커피 판매량' )
 
 st.plotly_chart(fig1)
+
+
+st.write("""
+# 1.아메리카노 (HOT)
+# 2.아메리카노 (ICE)
+# 3.바닐라라떼 (HOT)
+
+""")
