@@ -12,8 +12,8 @@ three = df.iloc[5000:5020]
 two = df.iloc[4588:5129]
 st.write(two)
 
-fig = px.histogram(two, x="상품명")
-st.plotly_chart(fig)
+# fig = px.histogram(two, x="상품명")
+
 
 fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12월 한달 커피 판매량' )
 
