@@ -27,6 +27,8 @@ two = df.iloc[4588:5129]
 
 # fig = px.histogram(two, x="상품명")
 
+st.write(two['판매수량'].sum())
+
 
 fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12월 한달 커피 판매량' )
 
