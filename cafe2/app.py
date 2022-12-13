@@ -69,5 +69,3 @@ ax.set_xlabel("Bill Length (mm)")
 ax.set_ylabel("Bill Depth (mm)")
 
 fig.tight_layout()
-
-st.pyplot(fig,ax)
