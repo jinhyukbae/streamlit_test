@@ -15,6 +15,6 @@ st.write(two)
 fig = px.histogram(two, x="상품명")
 st.plotly_chart(fig)
 
-fig1 = px.histogram(three, x="상품명", y='판매수량' )
+fig1 = px.histogram(two, x="상품명", y='판매수량' )
 
 st.plotly_chart(fig1)
