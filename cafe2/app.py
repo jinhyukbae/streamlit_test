@@ -39,14 +39,12 @@ st.write(two)
 
 
 st.sidebar.header('Menu')
-name = st.sidebar.selectbox('Name', ['아메리카노 HOT', '아메리카노 ICE', '바닐라라떼 HOT','그린티라떼 HOT','그린티라떼 ICE','카페모카 ICE'])
+name = st.sidebar.selectbox('Name', ['따뜻한커피','차가운커피'])
 
-if name == '아메리카노 HOT':
-    st.write('''
-    추운 겨울엔 따뜻한 커피 입니다.
-    ''')
+if name == '따뜻한커피':
+    st.image("https://i.pinimg.com/736x/0c/84/ab/0c84ab632174745bd69862f24fd21cc7.jpg")
 
-if name == '아메리카노 ICE':
+if name == '차가운커피':
     st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
 
 # two['ice'] = (
