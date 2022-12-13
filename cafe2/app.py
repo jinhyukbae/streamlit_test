@@ -18,8 +18,8 @@ st.subheader("""
 
 
 
-ice = two.loc[two['상품명'] != 'hot']
-st.write(ice) 
+# ice = two.loc[two['상품명'] != 'hot']
+# st.write(ice) 
 
 
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
