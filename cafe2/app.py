@@ -11,8 +11,7 @@ three = st.write(df.iloc[5000:5020])
 
 fig = plt.figure(figsize=(10, 10))
 #sns.histplot(data=two, x='상품명')
-sns.countplot(x="영업일자", data=three)
-plt.xticks()
+sns.boxplot(x="영업일자", data=three)
 st.pyplot(fig)
 
 
