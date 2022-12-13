@@ -7,4 +7,4 @@ st.write(
     """
 )
 
-st.image(image.png)
+st.image(https://blog.kakaocdn.net/dn/T5nNp/btqSNmEbPfD/R9XOFoLyuM25n7vRaCXgRK/img.jpg)
