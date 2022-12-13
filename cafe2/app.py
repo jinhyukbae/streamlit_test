@@ -45,3 +45,6 @@ st.pyplot(fig)
 #5000~5019 12.25 크리스마스 음료 판매
 
 #4588 5129
+
+penguins = sns.load_dataset("penguins")
+penguins.head()
