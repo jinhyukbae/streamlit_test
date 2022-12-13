@@ -53,9 +53,9 @@ fig, ax = plt.subplots(figsize=(6,5))
 
 # plot 0: scatter plot
 sns.scatterplot("bill_length_mm", "bill_depth_mm", color="k", data=penguins, alpha=0.3, ax=ax, legend=False)
-
+st.pyplot(fig)
 # plot 1: kde plot
-sns.kdeplot("bill_length_mm", "bill_depth_mm", hue="species", data=penguins, alpha=0.5, ax=ax, legend=False)
+#sns.kdeplot("bill_length_mm", "bill_depth_mm", hue="species", data=penguins, alpha=0.5, ax=ax, legend=False)
 
 # # text:
 # species_u = penguins["species"].unique()
