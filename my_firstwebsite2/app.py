@@ -7,4 +7,4 @@ st.write(
     """
 )
 
-st.image(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Korean.food-Gamjatang-01.jpg/330px-Korean.food-Gamjatang-01.jpg)
+st.image(https://t3.ftcdn.net/jpg/04/72/67/80/360_F_472678009_KR84qu3AVH4OlcJT0eez4FtSPNCAvnSU.jpg)
