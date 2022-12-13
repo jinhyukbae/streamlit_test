@@ -49,7 +49,7 @@ import seaborn as sns
 penguins = sns.load_dataset("penguins")
 #st.write(penguins.head())
 
-fig, ax = plt.subplots(figsize=(6,5))
+fig= plt.subplots(figsize=(6,5))
 
 # plot 0: scatter plot
 sns.scatterplot("bill_length_mm", "bill_depth_mm", color="k", data=penguins, alpha=0.3, ax=ax, legend=False)
