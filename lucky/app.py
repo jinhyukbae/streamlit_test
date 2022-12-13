@@ -53,7 +53,7 @@ for idx,col in enumerate(columns2):  #열의 위치
 #1. st.write(st.session_state) n과 g가 섞여있음 스크리닝 필터가 필요
 ss = pd.Series(st.session_state)
 ss2 = ss[ss != ""] 
-st.write(ss)
+st.write(ss2)
 #2. df 형태로 정리
 
 # <추첨 버튼>
