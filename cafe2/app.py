@@ -16,7 +16,7 @@ st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
 """)
 
-ice = two.loc[two["상품명"] != hot]
+ice = two['상품명'] != hot
 st.write(ice) 
 
 
