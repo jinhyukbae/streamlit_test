@@ -25,7 +25,7 @@ st.subheader("""
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 three = df.iloc[5000:5020]
 two = df.iloc[4588:5129]
-st.write(two)
+
 
 # fig = px.histogram(two, x="상품명")
 
@@ -61,9 +61,4 @@ st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
 
 
-df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-three = df.iloc[5000:5020]
-# st.write(df.iloc[5000:5020])
-# #st.write(df.iloc[4588:5129])
-two = df.iloc[4588:5129]
 st.write(two)
