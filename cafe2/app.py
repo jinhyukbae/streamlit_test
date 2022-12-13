@@ -24,6 +24,10 @@ fig = plt.figure(figsize=(20, 20))
 sns.pairplot(two)
 st.pyplot(fig)
 
+sns.pairplot(two, hue="상품명", markers=["o", "s", "D"])
+plt.title("시각화")
+plt.show()
+
 
 # x = two(['상품명'])
 # y = two(['판매수량'])
