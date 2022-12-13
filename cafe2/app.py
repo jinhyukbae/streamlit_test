@@ -10,8 +10,8 @@ st.write(df.iloc[5000:5020])
 #st.write(df.iloc[4588:5129])
 two = df.iloc[4588:5129]
 
-all = two.groupby('판매수량').sum()
-st.write(all)
+df1 = df['영업일자'],['판매수량']
+st.write(df1)
 # fig = plt.figure(figsize=(10, 10))
 # # #sns.histplot(data=three, x='상품명')
 # # #sns.histplot(x="상품명", y='판매수량', data=three)
