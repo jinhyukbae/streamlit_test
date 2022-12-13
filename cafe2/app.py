@@ -5,14 +5,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-st.write(df.iloc[4588:5129])
-two = df.iloc[4588:5129]
+st.write(df.tail(500))
+#st.write(df.iloc[4588:5129])
+# two = df.iloc[4588:5129]
 
-fig = plt.figure(figsize=(10, 10))
-#sns.histplot(data=two, x='상품명')
-sns.countplot(x="index", data=two)
-plt.xticks()
-st.pyplot(fig)
+# fig = plt.figure(figsize=(10, 10))
+# #sns.histplot(data=two, x='상품명')
+# sns.countplot(x="index", data=two)
+# plt.xticks()
+# st.pyplot(fig)
 
 
 #5000~5019 12.25 크리스마스 음료 판매
