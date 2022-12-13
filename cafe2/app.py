@@ -15,5 +15,5 @@ st.write(two)
 fig = px.histogram(two, x="영업일자")
 st.plotly_chart(fig)
 
-fig1 = px.histogram(three, x="영업일자")
+fig1 = px.histogram(three, x="상품명")
 st.plotly_chart(fig1)
