@@ -93,13 +93,13 @@ def main() :
     rock = ['뭐 낼지 고르세요','가위','바위','보']
     choice = st.selectbox('가위바위보', rock)
 
-    if choice == rock[0] :
+    if choice == rock[1] :
         st.write("""바위
         제가 이겼습니다.""")
-    elif choice == rock[1] :
+    elif choice == rock[2] :
         st.write("""보
         제가 이겼습니다.""")
-    elif choice == rock[2] :
+    elif choice == rock[3] :
         st.write("""가위
         제가 이겼습니다.""")
            
