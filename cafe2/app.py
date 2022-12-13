@@ -10,7 +10,7 @@ two = df.iloc[4588:5129]
 
 fig = plt.figure(figsize=(10, 10))
 #sns.histplot(data=two, x='상품명')
-sns.countplot(x="상품명", data=two)
+sns.countplot(x="index", data=two)
 plt.xticks()
 st.pyplot(fig)
 
