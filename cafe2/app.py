@@ -12,5 +12,5 @@ df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 two = df.iloc[4588:5129]
 st.write(two)
 
-fig = px.histogram(two, x="영업일자")
+fig = px.pie(two, x="영업일자")
 st.plotly_chart(fig)
