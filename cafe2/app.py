@@ -13,7 +13,7 @@ two = df.iloc[4588:5129]
 fig = plt.figure(figsize=(10, 10))
 # #sns.histplot(data=three, x='상품명')
 # #sns.histplot(x="상품명", y='판매수량', data=three)
-sns.histplot(x="상품명", y='판매수량', data=two)
+sns.histplot(x="상품명", y='판매수량', data=three)
 st.pyplot(fig)
 
 
