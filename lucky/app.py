@@ -7,7 +7,8 @@ import pandas as pd
 st.title("조추첨 페이지") # 제목 
 st.header("Welcome!!") #제목 다음으로 강조할 거
 
-st.image("./lucky/lucky.webp")
+st.image("./lucky/lucky.webp") # 폴더에 있는 파일 가져오기
+st.image("https://w.namu.la/s/cb6204e04affdae2f8afdc32d0f52bec3c152211d110bdf3a0439081d0744885c1bf6440136b71d0d7032af751477b604a446a44300a1adff2fb6d240c59a5acb27944adeb0dbf9cfd8dd17094786f2e259927de7131dc05cd7586114c11a300")
 
 
 # ./ -> 리포지토리 상 가장 윗 폴더 
