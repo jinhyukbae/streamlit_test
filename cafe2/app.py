@@ -90,8 +90,8 @@ st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
 def main() :
 
-    rock = ['가위','바위','보']
-    choice = st.selectbox('뭐 낼지 고르세요', rock)
+    rock = ['뭐 낼지 고르세요','가위','바위','보']
+    choice = st.selectbox('가위바위보', rock)
 
     if choice == rock[0] :
         st.write("""바위
