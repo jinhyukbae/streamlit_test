@@ -16,6 +16,10 @@ st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
 """)
 
+st.sidebar.header('Menu')
+name = st.sidebar.selectbox('Name', ['1분기', '2분기', '3분기','4분기'])
+
+
 
 
 # ice = two.loc[two['상품명'] != 'hot']
