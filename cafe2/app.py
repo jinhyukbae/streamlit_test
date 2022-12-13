@@ -12,9 +12,7 @@ with col1:
    if st.button("Button!!"):
        st.write("Yes")
 with col2:
-   st.header("Button")
-   if st.button("Button!!"):
-       st.write("NO")
+  st.write('ㅎㅇ')
 
 
 st.title(
