@@ -5,14 +5,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px 
 
-col1, col2, col3 = st.beta_columns(3)
+if st.checkbox('당신은 로봇입니까?') :
+        st.text('당신은 로봇이 아닙니다.')
+    else :
+        st.text('당신은 로봇입니다.')
 
-with col1:
-   st.header("Button")
-   if st.button("Button!!"):
-       st.write("Yes")
-with col2:
-  st.write('ㅎㅇ')
 
 
 st.title(
