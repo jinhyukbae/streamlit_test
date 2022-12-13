@@ -35,8 +35,11 @@ st.plotly_chart(fig1)
 
 st.write("""
 # 판매량
-## 1.아메리카노 (HOT)
-## 2.아메리카노 (ICE)
-## 3.바닐라라떼 (HOT)
+## 1.아메리카노 (HOT) 1215
+## 2.아메리카노 (ICE) 888
+## 3.바닐라라떼 (HOT) 264
 
 """)
+
+st.write("## 1.아메리카노 (HOT) 1215")
+st.image("https://imagescdn.gettyimagesbank.com/500/201708/jv10960341.jpg")
