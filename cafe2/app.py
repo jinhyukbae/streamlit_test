@@ -25,7 +25,6 @@ two = df.iloc[4588:5129]
 # st.pyplot(fig)
 fig = plt.figure(figsize=(20, 20))
 sns.pairplot(two, hue="상품명", markers=["o", "s", "D"])
-plt.title("시각화")
 st.pyplot(fig)
 
 
