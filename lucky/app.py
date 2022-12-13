@@ -51,16 +51,16 @@ for idx,col in enumerate(columns2):  #열의 위치
 #1. st.write(st.session_state) n과 g가 섞여있음 스크리닝 필터가 필요
 ss = pd.Series(st.session_state)
 ss2 = ss[ss != ""] #같지 않은 메소드를 통해서 정리 
-st.write(ss2)
+# st.write(ss2)
 # str string과 관련된 메소드를 사용할 수 있게 함
 # contains 괄호 값이 포함되어 있냐 
 n_idx = ss2.index.str.contains('n') 
 n_data = ss2[n_idx]
-st.write(n_data)
+# st.write(n_data)
 
 g_idx = ss2.index.str.contains('g') 
 g_data = ss2[g_idx]
-st.write(g_data)
+# st.write(g_data)
 
 #데이터를 길이만큼  비복원으로
 n_rd = np.random.choice(n_data, len(n_data), replace=False)
@@ -78,4 +78,38 @@ df = pd.DataFrame({
 st.write(df)
 
 # <추첨 버튼>
+
+if st.button('start'):
+    # 13명이 소속될 조 이름을 넣을 위치
+    # st.write(st.session_state) # 페이지 안에 세션이라는 임시 저장데이터를 만들어서 안에다 키 값을 연결 해줬다
+    #np.random.choice -> 추출해서 이름들, 목록
+    #1. st.write(st.session_state) n과 g가 섞여있음 스크리닝 필터가 필요
+    ss = pd.Series(st.session_state)
+    ss2 = ss[ss != ""] #같지 않은 메소드를 통해서 정리 
+    # st.write(ss2)
+    # str string과 관련된 메소드를 사용할 수 있게 함
+    # contains 괄호 값이 포함되어 있냐 
+    n_idx = ss2.index.str.contains('n') 
+    n_data = ss2[n_idx]
+    # st.write(n_data)
+
+    g_idx = ss2.index.str.contains('g') 
+    g_data = ss2[g_idx]
+    # st.write(g_data)
+
+    #데이터를 길이만큼  비복원으로
+    n_rd = np.random.choice(n_data, len(n_data), replace=False)
+    #st.write(n_rd)
+
+    g_rd = np.random.choice(g_data, len(g_data), replace=False)
+    #st.write(g_rd)
+
+    #2. df 형태로 정리
+    df = pd.DataFrame({
+        "추첨 대상자 이름":n_rd,
+        "조 이름": g_rd,
+    })
+
+    st.write(df)    
+
 # 13개의 짝을 지어서 표시해줄 그래픽 
