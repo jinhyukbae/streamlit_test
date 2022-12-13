@@ -7,7 +7,10 @@ import pandas as pd
 st.title("조추첨 페이지") # 제목 
 st.header("Welcome!!") #제목 다음으로 강조할 거
 
+st.image("./lucky/lucky.webp")
 
+
+# ./ -> 리포지토리 상 가장 윗 폴더 
 tabs = st.tabs(['참가자','조'])
 
 # 추첨 대상 13명의 이름을 넣을 수 있는 text_input
