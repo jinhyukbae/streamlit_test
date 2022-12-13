@@ -32,15 +32,6 @@ fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12�
 
 st.plotly_chart(fig1)
 
-
-st.write("""
-# 판매량
-## 1.아메리카노 (HOT) 1215
-## 2.아메리카노 (ICE) 888
-## 3.바닐라라떼 (HOT) 264
-
-""")
-
 st.write("## 1.아메리카노 (HOT) 1215")
 st.image("https://imagescdn.gettyimagesbank.com/500/201708/jv10960341.jpg")
 st.write("## 2.아메리카노 (ICE) 888")
