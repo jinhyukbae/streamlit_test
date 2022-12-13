@@ -77,3 +77,6 @@ if name == '따뜻한커피':
 
 elif name == '차가운커피':
     st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
+
+else :
+    st.write("따뜻한커피 vs 차가운커피")    
