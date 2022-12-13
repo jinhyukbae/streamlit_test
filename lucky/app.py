@@ -21,7 +21,7 @@ for idx,col in enumerate(columns):  #열의 위치
         # col 안에 메소드를 통해서 요소들을 생서해 주겠다
         # 열 안에서 text_input을 반복 할 때 마다 열이 하나씩 생긴다 
 # 13명이 소속될 조 이름을 넣을 위치
-# st.write(st.session_state) 페이지 안에 세션이라는 임시 저장데이터를 만들어서 안에다 키 값을 연결 해줬다
+ st.write(st.session_state) 페이지 안에 세션이라는 임시 저장데이터를 만들어서 안에다 키 값을 연결 해줬다
 
 # <추첨 버튼>
 # 13개의 짝을 지어서 표시해줄 그래픽 
