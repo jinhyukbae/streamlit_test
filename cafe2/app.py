@@ -88,25 +88,25 @@ st.image("https://imagecdn.dpon.gift/images/merchandises/ediya%EB%85%B9%EC%B0%A8
 st.write("## 3.카페모카 (ICE) 38잔 ")
 st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
-def main1() :
+def main() :
 
     rock = ['가위','바위','보']
-    my_choice = st.selectbox('뭐 낼지 고르세요', rock)
+    choice = st.selectbox('뭐 낼지 고르세요', rock)
 
-    if my_choice == rock[0] :
+    if choice == rock[0] :
         st.write("""바위
         제가 이겼습니다.""")
-    elif my_choice == rock[1] :
+    elif choice == rock[1] :
         st.write("""보
         제가 이겼습니다.""")
-    elif my_choice == rock[2] :
+    elif choice == rock[2] :
         st.write("""가위
         제가 이겼습니다.""")
            
 
 
-if __name__ == "__main1__" :
-    main1()
+if __name__ == "__main__" :
+    main()
 
   
 #st.write(two)
