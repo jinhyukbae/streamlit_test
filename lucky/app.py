@@ -109,7 +109,7 @@ if st.button('start'):
         "추첨 대상자 이름":n_rd,
         "조 이름": g_rd,
     })
-
+    st.balloons()
     st.write(df)    
 
 # 13개의 짝을 지어서 표시해줄 그래픽 
