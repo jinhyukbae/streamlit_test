@@ -16,6 +16,7 @@ st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
 """)
 
+st.write(two.loc['hot'])
 
 
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
@@ -33,13 +34,6 @@ st.subheader(f"12월 한달간 {total_sum}잔 팔았습니다.")
 
 
 fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12월 한달 커피 판매량' )
-
-fig2 = px.scatter(two,
-                 x='영업일자',
-                 y='판매수량',
-                 color='상품명')
-py.iplot(fig2)
-
 
 st.plotly_chart(fig1)
 
