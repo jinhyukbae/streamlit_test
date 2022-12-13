@@ -40,7 +40,7 @@ for idx,col in enumerate(columns2):  #열의 위치
     # col.text_input(f"조 추첨 대상 {idx+1}", key=idx)
     for idx2 in range(4): #행의 위치
         #행도 만들어 줘야 되기 때문에 2중 for 문  
-        col.text_input(f"조 추첨 대상 {idx+1 + idx2 * 4}", key=g"n{idx+1 + idx2 * 4}")
+        col.text_input(f"조 추첨 대상 {idx+1 + idx2 * 4}", key=f"g{idx+1 + idx2 * 4}")
         # col 안에 메소드를 통해서 요소들을 생서해 주겠다
         # 열 안에서 text_input을 반복 할 때 마다 열이 하나씩 생긴다 
 
