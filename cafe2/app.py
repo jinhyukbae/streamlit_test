@@ -43,3 +43,5 @@ st.write("""
 
 st.write("## 1.아메리카노 (HOT) 1215")
 st.image("https://imagescdn.gettyimagesbank.com/500/201708/jv10960341.jpg")
+st.write("## 2.아메리카노 (ICE) 888")
+st.image("https://cdn.paris.spl.li/wp-content/uploads/211001_%EB%B9%85%EC%95%84%EC%9D%B4%EC%8A%A4%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-1280.jpg")
