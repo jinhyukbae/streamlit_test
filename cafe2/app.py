@@ -16,16 +16,7 @@ st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
 """)
 
-st.sidebar.header('Menu')
-name = st.sidebar.selectbox('Name', ['아메리카노 HOT', '아메리카노 ICE', '바닐라라떼 HOT','그린티라떼 HOT','그린티라떼 ICE','카페모카 ICE'])
 
-if name == '아메리카노 HOT':
-    st.write('''
-    추운 겨울엔 따뜻한 커피 입니다.
-    ''')
-
-if name == '아메리카노 ICE':
-    st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
 
 
 
@@ -73,3 +64,15 @@ st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
 
 st.write(two)
+
+
+st.sidebar.header('Menu')
+name = st.sidebar.selectbox('Name', ['아메리카노 HOT', '아메리카노 ICE', '바닐라라떼 HOT','그린티라떼 HOT','그린티라떼 ICE','카페모카 ICE'])
+
+if name == '아메리카노 HOT':
+    st.write('''
+    추운 겨울엔 따뜻한 커피 입니다.
+    ''')
+
+if name == '아메리카노 ICE':
+    st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
