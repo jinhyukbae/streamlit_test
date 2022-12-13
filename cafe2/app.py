@@ -28,7 +28,8 @@ st.write(two)
 # fig = px.histogram(two, x="상품명")
 
 total_sum = two['판매수량'].sum()
-st.write(total_sum)
+st.write(f"12월 한달간 {total_sum}잔 팔았습니다.")
+
 
 
 fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12월 한달 커피 판매량' )
