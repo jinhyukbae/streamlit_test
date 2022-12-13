@@ -21,8 +21,6 @@ x = two[('상품명')]
 y = two(['판매수량'])
 plt.title("Bar Chart")
 plt.bar(x,y)
-plt.xlabel("가나다")
-plt.ylabel("빈도 수")
 plt.show()
 
 #5000~5019 12.25 크리스마스 음료 판매
