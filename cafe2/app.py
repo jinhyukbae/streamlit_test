@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 # three = df.iloc[5000:5020]
 # st.write(df.iloc[5000:5020])
 # #st.write(df.iloc[4588:5129])
