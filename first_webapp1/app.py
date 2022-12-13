@@ -12,5 +12,5 @@ st.write(
 
 #이미지를 넣고 싶으면 image
 st.image(
-    https://www.google.com/url?sa=i&url=https%3A%2F%2Fkr.freepik.com%2Fphotos%2Fcat&psig=AOvVaw1saewO1kDLorOtD-03mf3R&ust=1670985778088000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPjbj5_J9fsCFQAAAAAdAAAAABAE
+    "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_960_720.jpg"
 )
