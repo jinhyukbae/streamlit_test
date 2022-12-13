@@ -16,6 +16,15 @@ st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
 """)
 
+def main():
+    df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+
+    if st.button('데이터 보기'):
+        st.dataframe(two)
+
+if __name__ == '__main__' :
+    main()
+
 
 
 
