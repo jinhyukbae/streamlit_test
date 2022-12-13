@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv('./cafe/data.csv', encoding='cp949')
-st.write(df.iloc[4588:5129])
+# st.write(df.iloc[4588:5129])
 two = df.iloc[4588:5129]
 fig = plt.figure(figsize=(8, 4))
 sns.histplot(data=two, x='상품명')
