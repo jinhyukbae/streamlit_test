@@ -4,30 +4,30 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-three = df.iloc[5000:5020]
-st.write(df.iloc[5000:5020])
-#st.write(df.iloc[4588:5129])
-two = df.iloc[4588:5129]
+# df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+# three = df.iloc[5000:5020]
+# st.write(df.iloc[5000:5020])
+# #st.write(df.iloc[4588:5129])
+# two = df.iloc[4588:5129]
 
-df1 = df['영업일자'],['판매수량']
-st.write(df1)
-# fig = plt.figure(figsize=(10, 10))
-# # #sns.histplot(data=three, x='상품명')
-# # #sns.histplot(x="상품명", y='판매수량', data=three)
-# sns.histplot(x="상품명", y='판매수량', data=three)
-# st.pyplot(fig)
-# plt.rcParams['font.family'] = 'NanumGothic'
-# fig = plt.figure(figsize=(20, 20))
-# sns.countplot(data=two, x='영업일자', hue='상품명', multiple='stack')
-# st.pyplot(fig)
+# df1 = df['영업일자'],['판매수량']
+# #st.write(df1)
+# # fig = plt.figure(figsize=(10, 10))
+# # # #sns.histplot(data=three, x='상품명')
+# # # #sns.histplot(x="상품명", y='판매수량', data=three)
+# # sns.histplot(x="상품명", y='판매수량', data=three)
+# # st.pyplot(fig)
+# # plt.rcParams['font.family'] = 'NanumGothic'
+# # fig = plt.figure(figsize=(20, 20))
+# # sns.countplot(data=two, x='영업일자', hue='상품명', multiple='stack')
+# # st.pyplot(fig)
 
+# # fig = plt.figure(figsize=(20, 20))
+# # sns.pairplot(two)
+# # st.pyplot(fig)
 # fig = plt.figure(figsize=(20, 20))
-# sns.pairplot(two)
+# sns.pairplot(two, hue="상품명", markers=["o", "s", "D"])
 # st.pyplot(fig)
-fig = plt.figure(figsize=(20, 20))
-sns.pairplot(two, hue="상품명", markers=["o", "s", "D"])
-st.pyplot(fig)
 
 
 # x = two(['상품명'])
