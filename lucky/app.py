@@ -26,6 +26,24 @@ for idx,col in enumerate(columns):  #열의 위치
         col.text_input(f"조 추첨 대상 {idx+1 + idx2 * 4}", key=f"n{idx+1 + idx2 * 4}")
         # col 안에 메소드를 통해서 요소들을 생서해 주겠다
         # 열 안에서 text_input을 반복 할 때 마다 열이 하나씩 생긴다 
+
+#columns -> columns2
+#tabs[0] -> tabs[1]
+#enumerate(columns) -> columns2
+# f"n -> f"g
+columns2 = tabs[1].columns(4) #화면을 열로 나누어서 배치
+# 가로 4개의 열 -> columns = [col1, col2, col3, col4]
+# co1 co2 col3 col4
+#enumerate : inex, value 묶음 
+
+for idx,col in enumerate(columns2):  #열의 위치
+    # col.text_input(f"조 추첨 대상 {idx+1}", key=idx)
+    for idx2 in range(4): #행의 위치
+        #행도 만들어 줘야 되기 때문에 2중 for 문  
+        col.text_input(f"조 추첨 대상 {idx+1 + idx2 * 4}", key=g"n{idx+1 + idx2 * 4}")
+        # col 안에 메소드를 통해서 요소들을 생서해 주겠다
+        # 열 안에서 text_input을 반복 할 때 마다 열이 하나씩 생긴다 
+
 # 13명이 소속될 조 이름을 넣을 위치
 st.write(st.session_state) # 페이지 안에 세션이라는 임시 저장데이터를 만들어서 안에다 키 값을 연결 해줬다
 
