@@ -11,7 +11,7 @@ st.header("Welcome!!") #제목 다음으로 강조할 거
 columns = st.columns(4)
 # co1 co2 col3 col4
 for idx,c in enumerate(columns): 
-    st.text_input("조 추첨 대상")
+    st.text_input("조 추첨 대상", key=idx)
 # 13명이 소속될 조 이름을 넣을 위치
 
 # <추첨 버튼>
