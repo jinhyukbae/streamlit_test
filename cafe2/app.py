@@ -11,6 +11,10 @@ with col1:
    st.header("Button")
    if st.button("Button!!"):
        st.write("Yes")
+with col2:
+   st.header("Button")
+   if st.button("Button!!"):
+       st.write("Yes")
 
 
 st.title(
