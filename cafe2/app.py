@@ -22,12 +22,10 @@ st.subheader("""
 # st.write(ice) 
 
 
-# df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-# three = df.iloc[5000:5020]
-# # st.write(df.iloc[5000:5020])
-# # #st.write(df.iloc[4588:5129])
-# two = df.iloc[4588:5129]
-# st.write(two)
+df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+three = df.iloc[5000:5020]
+two = df.iloc[4588:5129]
+st.write(two)
 
 # fig = px.histogram(two, x="상품명")
 
