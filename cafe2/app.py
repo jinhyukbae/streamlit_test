@@ -84,4 +84,4 @@ st.write("## 3.카페모카 (ICE) 38잔 ")
 st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
   
-st.write(two)
+#st.write(two)
