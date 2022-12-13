@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-st.write(df.tail(500))
+st.write(df.tail(100))
 #st.write(df.iloc[4588:5129])
 # two = df.iloc[4588:5129]
 
