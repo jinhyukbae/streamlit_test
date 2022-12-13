@@ -4,5 +4,5 @@ import pandas as pd
 import matplotlib as plt
 import seaborn as sns
 
-df = pd.read_csv('./lucky/data.csv', encoding='cp949')
+df = pd.read_csv('./cafe/data.csv', encoding='cp949')
 st.write(df)
