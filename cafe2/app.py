@@ -57,15 +57,15 @@ sns.scatterplot("bill_length_mm", "bill_depth_mm", color="k", data=penguins, alp
 # plot 1: kde plot
 sns.kdeplot("bill_length_mm", "bill_depth_mm", hue="species", data=penguins, alpha=0.5, ax=ax, legend=False)
 
-# text:
-species_u = penguins["species"].unique()
-for i, s in enumerate(species_u):
-    ax.text(penguins["bill_length_mm"].loc[penguins["species"]==s].mean(),
-            penguins["bill_depth_mm"].loc[penguins["species"]==s].mean(),
-            s = s, fontdict={"fontsize":14, "fontweight":"bold","color":"k"}
-            )
+# # text:
+# species_u = penguins["species"].unique()
+# for i, s in enumerate(species_u):
+#     ax.text(penguins["bill_length_mm"].loc[penguins["species"]==s].mean(),
+#             penguins["bill_depth_mm"].loc[penguins["species"]==s].mean(),
+#             s = s, fontdict={"fontsize":14, "fontweight":"bold","color":"k"}
+#             )
 
-ax.set_xlabel("Bill Length (mm)")
-ax.set_ylabel("Bill Depth (mm)")
+# ax.set_xlabel("Bill Length (mm)")
+# ax.set_ylabel("Bill Depth (mm)")
 
-fig.tight_layout()
+# fig.tight_layout()
