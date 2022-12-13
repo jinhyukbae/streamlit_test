@@ -34,7 +34,10 @@ st.write(two)
 total_sum = two['판매수량'].sum()
 st.subheader(f"12월 한달간 {total_sum}잔 팔았습니다.")
 
-
+# two['ice'] = (
+#     two.apply(lambda x: x. if r.age >= 20 else 'child', axis=1) # 행을 기준으로 가져옴
+# )
+# titanic.tail()
 
 fig1 = px.histogram(two, x="상품명", y='판매수량',title='강원랜드 12월 한달 커피 판매량' )
 
