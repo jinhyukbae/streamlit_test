@@ -47,4 +47,4 @@ import seaborn as sns
 #4588 5129
 
 penguins = sns.load_dataset("penguins")
-penguins.head()
+st.write(penguins.head())
