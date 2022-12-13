@@ -7,7 +7,7 @@ import plotly.express as px
 
 st.title(
     """
-    강원랜드 인공지능 AI 빅데이터
+    강원랜드 인공지능 AI 빅데이터 기반
     """
     )
 
@@ -22,12 +22,12 @@ st.subheader("""
 # st.write(ice) 
 
 
-df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-three = df.iloc[5000:5020]
-# st.write(df.iloc[5000:5020])
-# #st.write(df.iloc[4588:5129])
-two = df.iloc[4588:5129]
-st.write(two)
+# df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+# three = df.iloc[5000:5020]
+# # st.write(df.iloc[5000:5020])
+# # #st.write(df.iloc[4588:5129])
+# two = df.iloc[4588:5129]
+# st.write(two)
 
 # fig = px.histogram(two, x="상품명")
 
@@ -60,3 +60,12 @@ st.write("## 2.그린티라떼 (ICE) 36 ")
 st.image("https://imagecdn.dpon.gift/images/merchandises/ediya%EB%85%B9%EC%B0%A8%EB%9D%BC%EB%96%BCICE.jpg")
 st.write("## 3.카페모카 (ICE) 38 ")
 st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
+
+
+
+df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+three = df.iloc[5000:5020]
+# st.write(df.iloc[5000:5020])
+# #st.write(df.iloc[4588:5129])
+two = df.iloc[4588:5129]
+st.write(two)
