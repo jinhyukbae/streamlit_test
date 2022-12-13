@@ -17,9 +17,10 @@ sns.histplot(x="상품명", y='판매수량', data=two)
 st.pyplot(fig)
 
 
-
+x = two[('상품명')]
+y = two(['판매수량'])
 plt.title("Bar Chart")
-plt.bar(x='상품명', y='판매수량', data=two)
+plt.bar(x,y)
 plt.xlabel("가나다")
 plt.ylabel("빈도 수")
 plt.show()
