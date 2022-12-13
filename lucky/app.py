@@ -7,12 +7,14 @@ st.title("조추첨 페이지") # 제목
 st.header("Welcome!!") #제목 다음으로 강조할 거
 
 
-tabs = st.tabs(['참가자'])
+tabs = st.tabs(['참가자','조'])
 
 # 추첨 대상 13명의 이름을 넣을 수 있는 text_input
 # 4 x 4 4행 4열 배치
 # st.columns(n) n만큼의 컬럼 리스트를 생성 
-columns = st.columns(4) #화면을 열로 나누어서 배치
+
+# 0번째 탭에 컬럼(열)을 넣겠다
+columns = tabs[0].columns(4) #화면을 열로 나누어서 배치
 # 가로 4개의 열 -> columns = [col1, col2, col3, col4]
 # co1 co2 col3 col4
 #enumerate : inex, value 묶음 
