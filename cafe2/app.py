@@ -23,7 +23,7 @@ three = df.iloc[5000:5020]
 # st.write(df.iloc[5000:5020])
 # #st.write(df.iloc[4588:5129])
 two = df.iloc[4588:5129]
-#st.write(two)
+st.write(two)
 
 # fig = px.histogram(two, x="상품명")
 
