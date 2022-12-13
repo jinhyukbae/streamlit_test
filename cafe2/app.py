@@ -17,6 +17,15 @@ sns.histplot(x="상품명", y='판매수량', data=two)
 st.pyplot(fig)
 
 
+
+plt.title("Bar Chart")
+plt.bar(x='상품명', y='판매수량', data=two)
+plt.xticks(x, xlabel)
+plt.yticks(sorted(y))
+plt.xlabel("가나다")
+plt.ylabel("빈도 수")
+plt.show()
+
 #5000~5019 12.25 크리스마스 음료 판매
 
 #4588 5129
