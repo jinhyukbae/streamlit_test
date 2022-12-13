@@ -35,7 +35,7 @@ total_sum = two['판매수량'].sum()
 st.subheader(f"12월 한달간 {total_sum}잔 팔았습니다.")
 
 st.sidebar.header('Menu')
-name = st.sidebar.selectbox('Name', ['따뜻한커피','차가운커피'])
+name = st.sidebar.selectbox('Name', ['종류를 선택해주세요','따뜻한커피','차가운커피'])
 
 if name == '따뜻한커피':
     st.image("https://i.pinimg.com/736x/0c/84/ab/0c84ab632174745bd69862f24fd21cc7.jpg")
