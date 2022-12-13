@@ -47,4 +47,27 @@ import seaborn as sns
 #4588 5129
 
 penguins = sns.load_dataset("penguins")
-st.write(penguins.head())
+#st.write(penguins.head())
+
+fig, ax = plt.subplots(figsize=(6,5))
+
+# plot 0: scatter plot
+sns.scatterplot("bill_length_mm", "bill_depth_mm", color="k", data=penguins, alpha=0.3, ax=ax, legend=False)
+
+# plot 1: kde plot
+sns.kdeplot("bill_length_mm", "bill_depth_mm", hue="species", data=penguins, alpha=0.5, ax=ax, legend=False)
+
+# text:
+species_u = penguins["species"].unique()
+for i, s in enumerate(species_u):
+    ax.text(penguins["bill_length_mm"].loc[penguins["species"]==s].mean(),
+            penguins["bill_depth_mm"].loc[penguins["species"]==s].mean(),
+            s = s, fontdict={"fontsize":14, "fontweight":"bold","color":"k"}
+            )
+
+ax.set_xlabel("Bill Length (mm)")
+ax.set_ylabel("Bill Depth (mm)")
+
+fig.tight_layout()
+
+st.pyplot(fig)
