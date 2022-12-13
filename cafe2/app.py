@@ -16,7 +16,6 @@ st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
 """)
 
-st.write(two.loc['hot'])
 
 
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
