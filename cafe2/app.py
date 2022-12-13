@@ -43,9 +43,9 @@ st.image("http://thumbnail.10x10.co.kr/webimage/image/basic600/352/B003520613.jp
 
 st.write("# WORST")
 
-st.write("## 1.그린티라떼 (HOT)")
+st.write("## 1.그린티라떼 (HOT) 28 ")
 st.image("https://t1.daumcdn.net/cfile/tistory/266ACC4A56C679952B")
-st.write("## 2.그린티라떼 (ICE)")
+st.write("## 2.그린티라떼 (ICE) 36 ")
 st.image("https://imagecdn.dpon.gift/images/merchandises/ediya%EB%85%B9%EC%B0%A8%EB%9D%BC%EB%96%BCICE.jpg")
-st.write("## 3.카페모카 (ICE) ")
+st.write("## 3.카페모카 (ICE) 38 ")
 st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
