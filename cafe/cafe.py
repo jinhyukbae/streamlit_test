@@ -5,4 +5,4 @@ import matplotlib as plt
 import seaborn as sns
 
 df = pd.read_csv('./cafe/data.csv', encoding='cp949')
-st.write(df)
+st.write(df.head(30))
