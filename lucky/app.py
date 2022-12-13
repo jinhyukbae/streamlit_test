@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import pandas as pd
 
 # st.write() 마크 다운 
 
@@ -27,10 +28,10 @@ for idx,col in enumerate(columns):  #열의 위치
         # col 안에 메소드를 통해서 요소들을 생서해 주겠다
         # 열 안에서 text_input을 반복 할 때 마다 열이 하나씩 생긴다 
 
-#columns -> columns2
-#tabs[0] -> tabs[1]
-#enumerate(columns) -> columns2
-# f"n -> f"g
+#columns -> columns2 안 겹치게
+#tabs[0] -> tabs[1] 다음 탭
+#enumerate(columns) -> columns2 안 겹치게
+# f"n -> f"g 안 겹치게
 columns2 = tabs[1].columns(4) #화면을 열로 나누어서 배치
 # 가로 4개의 열 -> columns = [col1, col2, col3, col4]
 # co1 co2 col3 col4
