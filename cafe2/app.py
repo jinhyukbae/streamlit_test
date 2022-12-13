@@ -7,8 +7,6 @@ import plotly.express as px
 
 if st.checkbox('당신은 로봇입니까?') :
         st.text('당신은 로봇이 아닙니다.')
-    else :
-        st.text('당신은 로봇입니다.')
 
 
 
