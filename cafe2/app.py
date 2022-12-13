@@ -49,6 +49,7 @@ two = df.iloc[4588:5129]
 total_sum = two['판매수량'].sum()
 st.subheader(f"12월 한달간 {total_sum}잔 팔았습니다.")
 
+
 st.sidebar.header('Menu')
 name = st.sidebar.selectbox('Name', ['종류를 선택해주세요','따뜻한커피','차가운커피'])
 
@@ -90,18 +91,25 @@ st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
 def main() :
 
-    rock = ['뭐 낼지 고르세요','가위','바위','보']
-    choice = st.selectbox('미니게임 가위바위보', rock)
+    cof = ['CHOICE','자메이카블루마운틴','루왁커피','인헤르토커피','게이샤커피','블랙아이보리커피']
+    choice = st.selectbox('상식퀴즈 : 세상에서 제일 비싼 커피는 무엇일까요?', cof)
 
-    if choice == rock[1] :
-        st.write("# 바위")
-        st.write("제가 이겼습니다.")
-    elif choice == rock[2] :
-        st.write("# 보")
-        st.write("제가 이겼습니다.")
-    elif choice == rock[3] :
-        st.write("# 가위")
-        st.write("제가 이겼습니다.")
+    if choice == cof[1] :
+        st.write("# 틀렸습니다.")
+    elif choice == cof[2] :
+        st.write("# 틀렸습니다.")
+    elif choice == cof[3] :
+        st.write("# 틀렸습니다.")
+    elif choice == cof[4] :
+        st.write("# 틀렸습니다.")
+    elif choice == cof[5] :
+        st.write("# 정답입니다!!!")
+        st.write("""
+        세계에서 가장 비싼 커피로 알려진 블랙 아이보리 커피는 바로 한번쯤은 들어보셨을 코끼리 똥 커피입니다.
+        커피 생산 방식은 루왁이랑 비슷합니다. 차이점은 고양이 대신 코끼리가 만든다는 점 입니다.
+        잔당 5만원 가량 한다고 합니다.
+        """)
+
            
 
 
