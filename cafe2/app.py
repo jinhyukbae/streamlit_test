@@ -11,6 +11,10 @@ st.title(
     """
     )
 
+st.subtitle("""
+강원랜드_호텔 무인영업장 인공지능 커피로봇 이용현황
+""")
+
 
 
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
