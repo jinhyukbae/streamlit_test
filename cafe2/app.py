@@ -20,8 +20,6 @@ st.pyplot(fig)
 
 plt.title("Bar Chart")
 plt.bar(x='상품명', y='판매수량', data=two)
-plt.xticks(x, xlabel)
-plt.yticks(sorted(y))
 plt.xlabel("가나다")
 plt.ylabel("빈도 수")
 plt.show()
