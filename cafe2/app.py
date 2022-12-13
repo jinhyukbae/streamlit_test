@@ -20,9 +20,9 @@ two = df.iloc[4588:5129]
 # sns.countplot(data=two, x='영업일자', hue='상품명', multiple='stack')
 # st.pyplot(fig)
 
-fig = plt.figure(figsize=(20, 20))
-sns.pairplot(two)
-st.pyplot(fig)
+# fig = plt.figure(figsize=(20, 20))
+# sns.pairplot(two)
+# st.pyplot(fig)
 
 sns.pairplot(two, hue="상품명", markers=["o", "s", "D"])
 plt.title("시각화")
