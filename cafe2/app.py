@@ -8,15 +8,9 @@ import plotly.express as px
 col1, col2, col3 = st.beta_columns(3)
 
 with col1:
-    def main():
-    df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-    two = df.iloc[4588:5129]
-
-    if st.button('데이터 보기'):
-        st.dataframe(two)
-
-if __name__ == '__main__' :
-    main()
+   st.header("Button")
+   if st.button("Button!!"):
+       st.write("Yes")
 
 
 st.title(
