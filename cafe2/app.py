@@ -10,4 +10,4 @@ df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 # #st.write(df.iloc[4588:5129])
 two = df.iloc[4588:5129]
 st.write(two)
-st.bar_chart(two)
+st.bar_chart(three)
