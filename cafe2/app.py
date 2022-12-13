@@ -7,7 +7,7 @@ import seaborn as sns
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 st.write(df.iloc[4588:5129])
 two = df.iloc[4588:5129]
-fig = plt.figure(figsize=(50, 50))
+fig = plt.figure(figsize=(30, 20))
 #sns.histplot(data=two, x='상품명')
 sns.countplot(x="영업일자", data=two)
 plt.xticks()
