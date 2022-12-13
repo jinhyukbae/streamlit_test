@@ -46,12 +46,13 @@ for idx,col in enumerate(columns2):  #열의 위치
         # 열 안에서 text_input을 반복 할 때 마다 열이 하나씩 생긴다 
 
 # 13명이 소속될 조 이름을 넣을 위치
-st.write(st.session_state) # 페이지 안에 세션이라는 임시 저장데이터를 만들어서 안에다 키 값을 연결 해줬다
+# st.write(st.session_state) # 페이지 안에 세션이라는 임시 저장데이터를 만들어서 안에다 키 값을 연결 해줬다
 
 
 #np.random.choice -> 추출해서 이름들, 목록
 #1. st.write(st.session_state) n과 g가 섞여있음 스크리닝 필터가 필요
 ss = pd.Series(st.session_state)
+ss2 = ss[ss != ""] 
 st.write(ss)
 #2. df 형태로 정리
 
