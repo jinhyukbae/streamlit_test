@@ -12,7 +12,7 @@ st.write(df.iloc[5000:5020])
 
 fig = plt.figure(figsize=(10, 10))
 #sns.histplot(data=three, x='상품명')
-sns.boxplot(x="상품명", data=three)
+sns.boxplot(x="상품명", y='판매수량', data=three)
 st.pyplot(fig)
 
 
