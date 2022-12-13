@@ -4,9 +4,10 @@ import numpy as np
 # st.write() 마크 다운 
 
 st.title("조추첨 페이지") # 제목 
-st.header("여러분의 참여를 환영") #제목 다음으로 강조할 거
+st.header("Welcome!!") #제목 다음으로 강조할 거
 
 # 추첨 대상 13명의 이름을 넣을 수 있는 text_input
+st.text_input("조 추첨 대상")
 # 13명이 소속될 조 이름을 넣을 위치
 
 # <추첨 버튼>
