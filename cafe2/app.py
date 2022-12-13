@@ -10,7 +10,7 @@ two = df.iloc[4588:5129]
 fig = plt.figure(figsize=(8, 4))
 #sns.histplot(data=two, x='상품명')
 sns.countplot(x="영업일자", data=two)
-plt.xticks([[0:32]])
+plt.xticks(range(32))
 st.pyplot(fig)
 
 #5000~5019 12.25 크리스마스 음료 판매
