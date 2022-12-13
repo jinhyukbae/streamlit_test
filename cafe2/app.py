@@ -17,7 +17,7 @@ two = df.iloc[4588:5129]
 x = [10, 60, 30] # 범주형 데이터별 파이 그래프의 비율
 labels = [len('상품명')]
 fig = plt.figure(figsize=(8, 4))
-plt.pie(x=two, labels=labels, autopct='%.1f%%')
+plt.pie(x=x, labels=labels, autopct='%.1f%%')
 st.pyplot(fig)
 
 #5000~5019 12.25 크리스마스 음료 판매
