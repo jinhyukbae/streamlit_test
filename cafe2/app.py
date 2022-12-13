@@ -34,8 +34,18 @@ two = df.iloc[4588:5129]
 total_sum = two['판매수량'].sum()
 st.subheader(f"12월 한달간 {total_sum}잔 팔았습니다.")
 
+st.sidebar.header('Menu')
+name = st.sidebar.selectbox('Name', ['따뜻한커피','차가운커피'])
 
-st.write(two)
+if name == '따뜻한커피':
+    st.image("https://i.pinimg.com/736x/0c/84/ab/0c84ab632174745bd69862f24fd21cc7.jpg")
+
+elif name == '차가운커피':
+    st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
+
+else :
+    st.write("따뜻한커피 vs 차가운커피")
+
   
 
 # two['ice'] = (
@@ -65,15 +75,5 @@ st.image("https://imagecdn.dpon.gift/images/merchandises/ediya%EB%85%B9%EC%B0%A8
 st.write("## 3.카페모카 (ICE) 38잔 ")
 st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
-
-st.sidebar.header('Menu')
-name = st.sidebar.selectbox('Name', ['따뜻한커피','차가운커피'])
-
-if name == '따뜻한커피':
-    st.image("https://i.pinimg.com/736x/0c/84/ab/0c84ab632174745bd69862f24fd21cc7.jpg")
-
-elif name == '차가운커피':
-    st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
-
-else :
-    st.write("따뜻한커피 vs 차가운커피")  
+  
+st.write(two)
