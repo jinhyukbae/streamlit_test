@@ -5,6 +5,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px 
 
+st.title(
+    """
+    강원랜드 인공지능 AI 빅데이터 메타버스 블록체인 암호화폐
+    """
+    )
+
+
+
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 three = df.iloc[5000:5020]
 # st.write(df.iloc[5000:5020])
