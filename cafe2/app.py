@@ -20,6 +20,11 @@ fig = plt.figure(figsize=(20, 20))
 sns.countplot(data=two, x='영업일자', hue='상품명', multiple='stack')
 st.pyplot(fig)
 
+fig = plt.figure(figsize=(20, 20))
+sns.pairplot(two)
+st.pyplot(fig)
+
+
 # x = two(['상품명'])
 # y = two(['판매수량'])
 # plt.title("Bar Chart")
