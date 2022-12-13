@@ -15,10 +15,10 @@ two = df.iloc[4588:5129]
 # # #sns.histplot(x="상품명", y='판매수량', data=three)
 # sns.histplot(x="상품명", y='판매수량', data=three)
 # st.pyplot(fig)
-plt.rcParams['font.family'] = 'NanumGothic'
-fig = plt.figure(figsize=(20, 20))
-sns.countplot(data=two, x='영업일자', hue='상품명', multiple='stack')
-st.pyplot(fig)
+# plt.rcParams['font.family'] = 'NanumGothic'
+# fig = plt.figure(figsize=(20, 20))
+# sns.countplot(data=two, x='영업일자', hue='상품명', multiple='stack')
+# st.pyplot(fig)
 
 fig = plt.figure(figsize=(20, 20))
 sns.pairplot(two)
