@@ -9,7 +9,7 @@ st.write(df.iloc[4588:5129])
 two = df.iloc[4588:5129]
 fig = plt.figure(figsize=(8, 4))
 #sns.histplot(data=two, x='상품명')
-sns.countplot(x="영업일자", data=two, rot=0)
+sns.countplot(x="영업일자", rot=0, data=two)
 plt.xticks()
 st.pyplot(fig)
 
