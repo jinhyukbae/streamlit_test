@@ -75,7 +75,7 @@ df = pd.DataFrame({
     "조 이름": g_rd,
 })
 
-st.write(df)
+# st.write(df)
 
 # <추첨 버튼>
 
