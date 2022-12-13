@@ -17,8 +17,8 @@ sns.histplot(x="상품명", y='판매수량', data=two)
 st.pyplot(fig)
 
 
-x = two[('상품명')]
-y = two(['판매수량'])
+x = two('상품명')
+y = two('판매수량')
 plt.title("Bar Chart")
 plt.bar(x,y)
 plt.show()
