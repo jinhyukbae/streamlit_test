@@ -7,7 +7,11 @@ st.title("조추첨 페이지") # 제목
 st.header("Welcome!!") #제목 다음으로 강조할 거
 
 # 추첨 대상 13명의 이름을 넣을 수 있는 text_input
-st.text_input("조 추첨 대상")
+# 3 x 4 3행 4열 배치
+columns = st.columns(4)
+# co1 co2 col3 col4
+for c in columns: 
+    st.text_input("조 추첨 대상")
 # 13명이 소속될 조 이름을 넣을 위치
 
 # <추첨 버튼>
