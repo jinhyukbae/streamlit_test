@@ -34,30 +34,30 @@ if __name__ == '__main__' :
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 
 
-a1 = df[df['상품명'].str.contains('아메리카노')] # 1
-a2 = df[df['상품명'].str.contains('카페라떼')] # 2
-a3 = df[df['상품명'].str.contains('초코라떼')] # 5
-a4 = df[df['상품명'].str.contains('흑당라떼')] # 8
-a5 = df[df['상품명'].str.contains('자몽')] # 6
-a6 = df[df['상품명'].str.contains('바닐라')] # 3
-a7 = df[df['상품명'].str.contains('아이스티')] # 9
-a8 = df[df['상품명'].str.contains('자두')] # 10
-a9 = df[df['상품명'].str.contains('청포도')] # 4
-a10 = df[df['상품명'].str.contains('카페모카')] # 7
-a11 = df[df['상품명'].str.contains('카푸치노')] # 11
+# a1 = df[df['상품명'].str.contains('아메리카노')] # 1
+# a2 = df[df['상품명'].str.contains('카페라떼')] # 2
+# a3 = df[df['상품명'].str.contains('초코라떼')] # 5
+# a4 = df[df['상품명'].str.contains('흑당라떼')] # 8
+# a5 = df[df['상품명'].str.contains('자몽')] # 6
+# a6 = df[df['상품명'].str.contains('바닐라')] # 3
+# a7 = df[df['상품명'].str.contains('아이스티')] # 9
+# a8 = df[df['상품명'].str.contains('자두')] # 10
+# a9 = df[df['상품명'].str.contains('청포도')] # 4
+# a10 = df[df['상품명'].str.contains('카페모카')] # 7
+# a11 = df[df['상품명'].str.contains('카푸치노')] # 11
 
 
-st.write(a1.sum())
-st.write(a2.sum())
-st.write(a3.sum())
-st.write(a4.sum())
-st.write(a5.sum())
-st.write(a6.sum())
-st.write(a7.sum())
-st.write(a8.sum())
-st.write(a9.sum())
-st.write(a10.sum())
-st.write(a11.sum())
+# st.write(a1.sum())
+# st.write(a2.sum())
+# st.write(a3.sum())
+# st.write(a4.sum())
+# st.write(a5.sum())
+# st.write(a6.sum())
+# st.write(a7.sum())
+# st.write(a8.sum())
+# st.write(a9.sum())
+# st.write(a10.sum())
+# st.write(a11.sum())
 
 
 
