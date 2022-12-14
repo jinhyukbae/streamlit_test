@@ -396,8 +396,7 @@ elif name == '전체':
 
     with col30:
 	    st.subheader("3.흑당라떼 HOT 410잔")
-        st.image("https://imagecdn.dpon.gift/images/merchandises/70_%ED%9D%91%EB%8B%B9%EB%B2%84%EB%B8%94%EB%9D%BC%EB%96%BC.jpg")
-
+        st.image("https://cdn.imweb.me/upload/S2022012027a2ef95d300f/575cac032f7c9.png")
 
 
 
