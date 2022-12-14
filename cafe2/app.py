@@ -16,11 +16,8 @@ st.title(
     """
     )
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+st.write('&nbsp;')
+
 
 st.subheader("""
 강원랜드_호텔 인공지능 무인카페 이용현황
