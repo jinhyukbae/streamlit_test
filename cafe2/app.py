@@ -116,11 +116,11 @@ if name == '1분기':
     def main() :
 
     cofbean = ['CHOICE','O','X']
-    choice = st.selectbox('상식퀴즈 : 커피는 콩이다?', cofbean)
+    choice1 = st.selectbox('상식퀴즈 : 커피는 콩이다?', cofbean)
 
-    if choice == cofbean[1] :
+    if choice1 == cofbean[1] :
         st.write("# 틀렸습니다.")
-    elif choice == cofbean[2] :
+    elif choice1 == cofbean[2] :
         st.balloons()
         st.write("# 정답입니다!!!")
         st.write("""
