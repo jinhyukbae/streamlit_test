@@ -34,17 +34,17 @@ if __name__ == '__main__' :
 df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 
 
-a1 = df[df['상품명'].str.contains('아메리카노')]
-a2 = df[df['상품명'].str.contains('카페라떼')]
-a3 = df[df['상품명'].str.contains('초코라떼')]
-a4 = df[df['상품명'].str.contains('흑당라떼')]
-a5 = df[df['상품명'].str.contains('자몽')]
-a6 = df[df['상품명'].str.contains('바닐라')]
-a7 = df[df['상품명'].str.contains('아이스티')]
-a8 = df[df['상품명'].str.contains('자두')]
-a9 = df[df['상품명'].str.contains('청포도')]
-a10 = df[df['상품명'].str.contains('카페모카')]
-a11 = df[df['상품명'].str.contains('카푸치노')]
+a1 = df[df['상품명'].str.contains('아메리카노')] # 1
+a2 = df[df['상품명'].str.contains('카페라떼')] # 2
+a3 = df[df['상품명'].str.contains('초코라떼')] # 5
+a4 = df[df['상품명'].str.contains('흑당라떼')] # 8
+a5 = df[df['상품명'].str.contains('자몽')] # 6
+a6 = df[df['상품명'].str.contains('바닐라')] # 3
+a7 = df[df['상품명'].str.contains('아이스티')] # 9
+a8 = df[df['상품명'].str.contains('자두')] # 10
+a9 = df[df['상품명'].str.contains('청포도')] # 4
+a10 = df[df['상품명'].str.contains('카페모카')] # 7
+a11 = df[df['상품명'].str.contains('카푸치노')] # 11
 
 
 st.write(a1.sum())
@@ -72,23 +72,23 @@ def main() :
     elif choice == cof[2] :
         st.write("# 당신이 고른 음료는 두번째로 많이 팔렸어요")
     elif choice == cof[3] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 여덟번째로 많이 팔렸어요.")
     elif choice == cof[4] :
-        st.write("# 당신이 고른 음료는 네번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 다섯번째로 많이 팔렸어요.")
     elif choice == cof[5] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 여섯번째로 많이 팔렸어요.")
     elif choice == cof[6] :
         st.write("# 당신이 고른 음료는 세번째로 많이 팔렸어요.")
     elif choice == cof[7] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 아홉번째로 많이 팔렸어요.")
     elif choice == cof[8] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 열번째로 많이 팔렸어요.")
     elif choice == cof[9] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")  
+        st.write("# 당신이 고른 음료는 네번째로 많이 팔렸어요.")  
     elif choice == cof[10] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 일곱번째로 많이 팔렸어요.")
     elif choice == cof[11] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+        st.write("# 당신이 고른 음료는 열한번째로 많이 팔렸어요.")
 
 
 if __name__ == '__main__' :
