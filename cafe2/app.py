@@ -54,14 +54,14 @@ forth = df.iloc[3518:]
 
 # fig = px.histogram(two, x="상품명")
 
-total_sum1 = first['판매수량'].sum()
-st.subheader(f"1분기 총 판매량 {total_sum1}잔 팔았습니다.")
-total_sum2 = second['판매수량'].sum()
-st.subheader(f"2분기 총 판매량 {total_sum2}잔 팔았습니다.")
-total_sum3 = third['판매수량'].sum()
-st.subheader(f"3분기 총 판매량 {total_sum3}잔 팔았습니다.")
-total_sum4 = forth['판매수량'].sum()
-st.subheader(f"4분기 총 판매량 {total_sum4}잔 팔았습니다.")
+# total_sum1 = first['판매수량'].sum()
+# st.subheader(f"1분기 총 판매량 {total_sum1}잔 팔았습니다.")
+# total_sum2 = second['판매수량'].sum()
+# st.subheader(f"2분기 총 판매량 {total_sum2}잔 팔았습니다.")
+# total_sum3 = third['판매수량'].sum()
+# st.subheader(f"3분기 총 판매량 {total_sum3}잔 팔았습니다.")
+# total_sum4 = forth['판매수량'].sum()
+# st.subheader(f"4분기 총 판매량 {total_sum4}잔 팔았습니다.")
 
 
 st.sidebar.header('Menu')
@@ -76,10 +76,31 @@ if name == '1분기':
     st.plotly_chart(fig_first)
 
 elif name == '2분기':
+
+    total_sum2 = second['판매수량'].sum()
+    st.subheader(f"2분기 총 판매량 {total_sum2}잔 팔았습니다.")
+
     fig_second = px.histogram(second, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 2분기 음료 판매량' )
 
     st.plotly_chart(fig_second)
 
+elif name == '3분기':
+
+    total_sum3 = third['판매수량'].sum()
+    st.subheader(f"3분기 총 판매량 {total_sum3}잔 팔았습니다.") 
+
+    fig_third = px.histogram(third, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 3분기 음료 판매량' )
+
+    st.plotly_chart(fig_third)
+    
+elif name == '4분기':
+
+    total_sum4 = forth['판매수량'].sum()
+    st.subheader(f"4분기 총 판매량 {total_sum4}잔 팔았습니다.")
+
+    fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 4분기 음료 판매량' )
+
+    st.plotly_chart(fig_forth)    
 
 
 
