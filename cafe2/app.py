@@ -93,6 +93,9 @@ st.plotly_chart(fig_forth)
 sample = first[first['상품명'].str.contains('아메리카노')]
 st.write(sample)
 
+fug1 = px.histogram(sample x="상품명", y='판매수량')
+st.plotly_chart(fug1)
+
 # two['ice'] = (
 #     two.apply(lambda x: x. if r.age >= 20 else 'child', axis=1) # 행을 기준으로 가져옴
 # )
