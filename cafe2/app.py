@@ -127,12 +127,12 @@ elif name == '4분기':
 
 # st.plotly_chart(fig_forth)
 
-sample1 = first[first['상품명'].str.contains('아메리카노')]
+# sample1 = first[first['상품명'].str.contains('아메리카노')]
 
-st.write("## HOT vs ICE")
-st.write("### 1분기의 승자는 HOT 입니다.")
-fug1 = px.histogram(sample1, x="상품명", y='판매수량')
-st.plotly_chart(fug1)
+# st.write("## HOT vs ICE")
+# st.write("### 1분기의 승자는 HOT 입니다.")
+# fug1 = px.histogram(sample1, x="상품명", y='판매수량')
+# st.plotly_chart(fug1)
 
 # two['ice'] = (
 #     two.apply(lambda x: x. if r.age >= 20 else 'child', axis=1) # 행을 기준으로 가져옴
