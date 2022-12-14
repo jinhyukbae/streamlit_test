@@ -383,30 +383,30 @@ def main() :
     cof = ['CHOICE','아메리카노','카페라떼','흑당라떼','초코라떼','스위티자몽','바닐라라떼','아이스티','자두주스','청포도주스','초코라떼','카페모카','카푸치노']
     choice = st.selectbox('귀하가 선호하는 카페 음료는 무엇입니까?', cof)
 
-     if choice == cof[1] :
-         st.write("# 당신이 고른 음료는 첫번째로 많이 팔렸어요 ")
-     elif choice == cof[2] :
-         st.write("# 당신이 고른 음료는 두번째로 많이 팔렸어요")
-     elif choice == cof[3] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-     elif choice == cof[4] :
-         st.write("# 당신이 고른 음료는 네번째로 많이 팔렸어요.")
-     elif choice == cof[5] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-     elif choice == cof[6] :
-         st.write("# 당신이 고른 음료는 세번째로 많이 팔렸어요.")
-     elif choice == cof[7] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-     elif choice == cof[8] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-     elif choice == cof[9] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")  
-     elif choice == cof[10] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-     elif choice == cof[11] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-     elif choice == cof[12] :
-         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    if choice == cof[1] :
+        st.write("# 당신이 고른 음료는 첫번째로 많이 팔렸어요 ")
+    elif choice == cof[2] :
+        st.write("# 당신이 고른 음료는 두번째로 많이 팔렸어요")
+    elif choice == cof[3] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    elif choice == cof[4] :
+        st.write("# 당신이 고른 음료는 네번째로 많이 팔렸어요.")
+    elif choice == cof[5] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    elif choice == cof[6] :
+        st.write("# 당신이 고른 음료는 세번째로 많이 팔렸어요.")
+    elif choice == cof[7] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    elif choice == cof[8] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    elif choice == cof[9] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")  
+    elif choice == cof[10] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    elif choice == cof[11] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+    elif choice == cof[12] :
+        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
    
 
            
