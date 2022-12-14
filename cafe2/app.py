@@ -230,8 +230,8 @@ elif name == '4분기':
            
 
 
-if __name__ == "__main__" :
-    main()
+# if __name__ == "__main__" :
+#     main()
 
 
     st.write("## BEST 3")
