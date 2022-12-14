@@ -31,6 +31,8 @@ if __name__ == '__main__' :
     main()
 
 
+df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
+
 
 a1 = df[df['상품명'].str.contains('아메리카노')]
 a2 = df[df['상품명'].str.contains('카페라떼')]
@@ -43,6 +45,8 @@ a8 = df[df['상품명'].str.contains('자두')]
 a9 = df[df['상품명'].str.contains('청포도')]
 a10 = df[df['상품명'].str.contains('카페모카')]
 a11 = df[df['상품명'].str.contains('카푸치노')]
+
+sample2 = second[second['상품명'].str.contains('아메리카노')]
 
 
 st.write(a1.sum())
