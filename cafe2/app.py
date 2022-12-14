@@ -378,27 +378,36 @@ elif name == '전체':
 # st.write("## 3.카페모카 (ICE) 38잔 ")
 # st.image("http://image.auction.co.kr/itemimage/19/a7/48/19a748d726.jpg")
 
-# def main() :
+def main() :
 
-#     cof = ['CHOICE','자메이카블루마운틴','루왁커피','인헤르토커피','게이샤커피','블랙아이보리커피']
-#     choice = st.selectbox('상식퀴즈 : 세상에서 제일 비싼 커피는 무엇일까요?', cof)
+    cof = ['CHOICE','아메리카노','카페라떼','흑당라떼','초코라떼','스위티자몽','바닐라라떼','아이스티','자두주스','청포도주스','초코라떼','카페모카','카푸치노']
+    choice = st.selectbox('귀하가 선호하는 카페 음료는 무엇입니까?, cof)
 
-#     if choice == cof[1] :
-#         st.write("# 틀렸습니다.")
-#     elif choice == cof[2] :
-#         st.write("# 틀렸습니다.")
-#     elif choice == cof[3] :
-#         st.write("# 틀렸습니다.")
-#     elif choice == cof[4] :
-#         st.write("# 틀렸습니다.")
-#     elif choice == cof[5] :
-#         st.balloons()
-#         st.write("# 정답입니다!!!")
-#         st.write("""
-#         세계에서 가장 비싼 커피로 알려진 블랙 아이보리 커피는 바로 한번쯤은 들어보셨을 코끼리 똥 커피입니다.
-#         커피 생산 방식은 루왁이랑 비슷합니다. 차이점은 고양이 대신 코끼리가 만든다는 점 입니다.
-#         잔당 5만원 가량 한다고 합니다.
-#         """)
+     if choice == cof[1] :
+         st.write("# 당신이 고른 음료는 첫번째로 많이 팔렸어요 ")
+     elif choice == cof[2] :
+         st.write("# 당신이 고른 음료는 두번째로 많이 팔렸어요")
+     elif choice == cof[3] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+     elif choice == cof[4] :
+         st.write("# 당신이 고른 음료는 네번째로 많이 팔렸어요.")
+     elif choice == cof[5] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+     elif choice == cof[6] :
+         st.write("# 당신이 고른 음료는 세번째로 많이 팔렸어요.")
+     elif choice == cof[7] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+     elif choice == cof[8] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+     elif choice == cof[9] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")  
+     elif choice == cof[10] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+     elif choice == cof[11] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+     elif choice == cof[12] :
+         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+   
 
            
 
