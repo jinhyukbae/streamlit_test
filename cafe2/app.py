@@ -31,11 +31,34 @@ if __name__ == '__main__' :
     main()
 
 
+a1 = df[df['상품명'].str.contains('아메리카노')]
+a2 = df[df['상품명'].str.contains('카페라떼')]
+a3 = df[df['상품명'].str.contains('초코라떼')]
+a4 = df[df['상품명'].str.contains('흑당라떼')]
+a5 = df[df['상품명'].str.contains('자몽')]
+a6 = df[df['상품명'].str.contains('바닐라')]
+a7 = df[df['상품명'].str.contains('아이스티')]
+a8 = df[df['상품명'].str.contains('자두')]
+a9 = df[df['상품명'].str.contains('청포도')]
+a10 = df[df['상품명'].str.contains('카페모카')]
+a11 = df[df['상품명'].str.contains('카푸치노')]
 
+
+st.write(a1.sum())
+st.write(a2.sum())
+st.write(a3.sum())
+st.write(a4.sum())
+st.write(a5.sum())
+st.write(a6.sum())
+st.write(a7.sum())
+st.write(a8.sum())
+st.write(a9.sum())
+st.write(a10.sum())
+st.write(a11.sum())
 
 def main() :
 
-    cof = ['CHOICE','아메리카노','카페라떼','흑당라떼','초코라떼','스위티자몽','바닐라라떼','아이스티','자두주스','청포도주스','초코라떼','카페모카','카푸치노']
+    cof = ['CHOICE','아메리카노','카페라떼','흑당라떼','초코라떼','스위티자몽','바닐라라떼','아이스티','자두주스','청포도주스','카페모카','카푸치노']
     choice = st.selectbox('귀하가 선호하는 카페 음료는 무엇입니까?', cof)
 
     if choice == cof[1] :
