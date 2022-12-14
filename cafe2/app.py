@@ -31,7 +31,7 @@ if __name__ == '__main__' :
     main()
 
 
-a1 = df[df['상품명'].str.contains('아메리카')]
+#a1 = df[df['상품명'].str.contains('아메리카')]
 a2 = df[df['상품명'].str.contains('카페라떼')]
 a3 = df[df['상품명'].str.contains('초코라떼')]
 a4 = df[df['상품명'].str.contains('흑당라떼')]
