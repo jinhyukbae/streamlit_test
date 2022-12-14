@@ -68,6 +68,9 @@ st.sidebar.header('Menu')
 name = st.sidebar.selectbox('분기별 판매량', ['종류를 선택해주세요','1분기','2분기','3분기','4분기'])
 
 if name == '1분기':
+    total_sum1 = first['판매수량'].sum()
+    st.subheader(f"1분기 총 판매량 {total_sum1}잔 팔았습니다.")
+
     fig_first = px.histogram(first, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 1분기 음료 판매량' )
 
     st.plotly_chart(fig_first)
