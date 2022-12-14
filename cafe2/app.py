@@ -44,11 +44,7 @@ three = df.iloc[5000:5020]
 two = df.iloc[4588:5129]
 
 
-fig2 = px.line(two, 
-              x="영업일자", # x축
-              y="판매수량",  # y축
-              title='Life expectancy in Canada' # Title 
-              )
+fig2 = two.iplot(kind='bar', title="제목", xTitle="x축", yTitle="y축")
 st.plotly_chart(fig2)
 
 # fig = px.histogram(two, x="상품명")
