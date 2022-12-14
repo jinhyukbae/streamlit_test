@@ -47,7 +47,6 @@ a10 = df[df['상품명'].str.contains('카페모카')]
 a11 = df[df['상품명'].str.contains('카푸치노')]
 
 
-
 st.write(a1.sum())
 st.write(a2.sum())
 st.write(a3.sum())
