@@ -90,6 +90,8 @@ fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜
 
 st.plotly_chart(fig_forth)
 
+first[first('HOT') != True]
+
 
 # two['ice'] = (
 #     two.apply(lambda x: x. if r.age >= 20 else 'child', axis=1) # 행을 기준으로 가져옴
