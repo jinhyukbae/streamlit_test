@@ -396,7 +396,7 @@ elif name == '전체':
 
     with col30:
 	    st.subheader("3.흑당라떼 HOT 410잔")
-        st.image("https://t1.daumcdn.net/cfile/tistory/99F811365D172C5A01")
+        #st.image("https://t1.daumcdn.net/cfile/tistory/99F811365D172C5A01")
 
 
 
