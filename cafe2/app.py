@@ -60,8 +60,7 @@ def main() :
         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
     elif choice == cof[11] :
         st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
-    elif choice == cof[12] :
-        st.write("# 당신이 고른 음료는 번째로 많이 팔렸어요.")
+
 
 if __name__ == '__main__' :
     main()
