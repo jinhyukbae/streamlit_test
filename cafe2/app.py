@@ -43,7 +43,10 @@ df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 three = df.iloc[5000:5020]
 two = df.iloc[4588:5129]
 
-st.write(df['영업일자'])
+#st.write(df['영업일자'])
+
+first = df.iloc[:627]
+st.write(first)
 
 # fig = px.histogram(two, x="상품명")
 
