@@ -23,10 +23,9 @@ st.header("""
 
 def main():
     df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
-    two = df.iloc[4588:5129]
 
     if st.button('데이터 보기'):
-        st.dataframe(two)
+        st.dataframe(df)
 
 if __name__ == '__main__' :
     main()
