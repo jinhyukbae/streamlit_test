@@ -44,6 +44,13 @@ three = df.iloc[5000:5020]
 two = df.iloc[4588:5129]
 
 
+fig2 = px.line(two, 
+              x="영업일자", # x축
+              y="판매수량",  # y축
+              title='Life expectancy in Canada' # Title 
+              )
+fig2.show()
+
 # fig = px.histogram(two, x="상품명")
 
 total_sum = two['판매수량'].sum()
