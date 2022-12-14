@@ -12,7 +12,8 @@ if st.checkbox('당신은 로봇입니까?') :
 
 st.title(
     """
-    강원랜드 인공지능 AI 빅데이터 기반
+    강원랜드 인공지능 AI 빅데이터 기반 
+    Data Analysis & Data Visualization Project
     """
     )
 
