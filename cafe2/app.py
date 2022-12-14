@@ -68,28 +68,40 @@ def main() :
     choice = st.selectbox('귀하가 선호하는 카페 음료는 무엇입니까?', cof)
 
     if choice == cof[1] :
+        st.balloons()
         st.write("# 당신이 고른 음료는 첫번째로 많이 팔렸어요 ")
     elif choice == cof[2] :
+        st.balloons()
         st.write("# 당신이 고른 음료는 두번째로 많이 팔렸어요")
     elif choice == cof[3] :
+        st.snow()
         st.write("# 당신이 고른 음료는 여덟번째로 많이 팔렸어요.")
     elif choice == cof[4] :
+        st.balloons()
         st.write("# 당신이 고른 음료는 다섯번째로 많이 팔렸어요.")
     elif choice == cof[5] :
+        st.balloons()
         st.write("# 당신이 고른 음료는 여섯번째로 많이 팔렸어요.")
     elif choice == cof[6] :
+        st.balloons()
         st.write("# 당신이 고른 음료는 세번째로 많이 팔렸어요.")
     elif choice == cof[7] :
+        st.snow()
         st.write("# 당신이 고른 음료는 아홉번째로 많이 팔렸어요.")
     elif choice == cof[8] :
+        st.snow()
         st.write("# 당신이 고른 음료는 열번째로 많이 팔렸어요.")
     elif choice == cof[9] :
+        st.balloons()
         st.write("# 당신이 고른 음료는 네번째로 많이 팔렸어요.")  
     elif choice == cof[10] :
+        st.snow()
         st.write("# 당신이 고른 음료는 일곱번째로 많이 팔렸어요.")
     elif choice == cof[11] :
+        st.snow()
         st.write("# 당신이 고른 음료는 열한번째로 많이 팔렸어요.")
     elif choice == cof[-1] :
+        st.snow()
         st.write("# 당신이 고른 음료는 열두번째로 많이 팔렸어요.")
 
 
