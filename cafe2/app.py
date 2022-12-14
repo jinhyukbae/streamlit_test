@@ -46,7 +46,6 @@ a9 = df[df['상품명'].str.contains('청포도')]
 a10 = df[df['상품명'].str.contains('카페모카')]
 a11 = df[df['상품명'].str.contains('카푸치노')]
 
-sample2 = second[second['상품명'].str.contains('아메리카노')]
 
 
 st.write(a1.sum())
