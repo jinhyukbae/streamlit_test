@@ -131,7 +131,7 @@ if name == '1분기':
            
 
 
-    if __name__ == "__main__" :
+    if __name__ == "__main1__" :
         main1()
 
 
