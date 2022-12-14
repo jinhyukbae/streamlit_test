@@ -65,7 +65,7 @@ forth = df.iloc[3518:]
 
 
 st.sidebar.header('Menu')
-name = st.sidebar.selectbox('분기별 판매량', ['종류를 선택해주세요','1분기','2분기','3분기','4분기'])
+name = st.sidebar.selectbox('분기별 판매량', ['종류를 선택해주세요','1분기','2분기','3분기','4분기','전체'])
 
 if name == '1분기':
     total_sum1 = first['판매수량'].sum()
@@ -108,6 +108,10 @@ elif name == '4분기':
     fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 4분기 음료 판매량' )
 
     st.plotly_chart(fig_forth)    
+
+elif name == '전체':
+    total_sum5 = df['판매수량'].sum()
+    st.subheader(f"21년 총 판매량 {total_sum5}잔 팔았습니다.")
 
 
 
