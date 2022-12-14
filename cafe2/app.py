@@ -261,6 +261,7 @@ elif name == '전체':
 
     st.write("## HOT vs ICE")
     st.write("### 21년의 승자는 ICE 입니다.")
+    st.write("### 한국인은 어떤 민족 입니까?.")
     st.write("### 한국인은 아아의 민족 입니다.")
     
     fug5 = px.histogram(sample5, x="상품명", y='판매수량')
