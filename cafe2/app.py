@@ -113,7 +113,7 @@ if name == '1분기':
 	    st.subheader("3.흑당라떼 HOT 28잔")
 	    st.image("https://www.the-cup.co.kr/data/editor/1902/thumb-687c8d0c78d329e0c637df3050b1fd20_1550129060_1108_920x843.jpg")
 
-    def main() :
+    def main1() :
 
         cofbean = ['CHOICE','O','X']
         choice1 = st.selectbox('상식퀴즈 : 커피는 콩이다?', cofbean)
@@ -132,7 +132,7 @@ if name == '1분기':
 
 
     if __name__ == "__main__" :
-        main()
+        main1()
 
 
 
