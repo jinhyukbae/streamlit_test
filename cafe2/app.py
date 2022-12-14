@@ -115,18 +115,18 @@ if name == '1분기':
 
     def main() :
 
-    cofbean = ['CHOICE','O','X']
-    choice1 = st.selectbox('상식퀴즈 : 커피는 콩이다?', cofbean)
+        cofbean = ['CHOICE','O','X']
+        choice1 = st.selectbox('상식퀴즈 : 커피는 콩이다?', cofbean)
 
-    if choice1 == cofbean[1] :
-        st.write("# 틀렸습니다.")
-    elif choice1 == cofbean[2] :
-        st.balloons()
-        st.write("# 정답입니다!!!")
-        st.write("""
-        정답은 X. 영어권에서도 커피 씨앗은 콩(BEAN)으로 불리지만 실제로는 커피 열매 안에 들어있는 씨앗입니다. 
-        콩이라 불리는 것은 일종의 관용어로 쓰였답니다.
-        """)
+        if choice1 == cofbean[1] :
+            st.write("# 틀렸습니다.")
+        elif choice1 == cofbean[2] :
+            st.balloons()
+            st.write("# 정답입니다!!!")
+            st.write("""
+            정답은 X. 영어권에서도 커피 씨앗은 콩(BEAN)으로 불리지만 실제로는 커피 열매 안에 들어있는 씨앗입니다. 
+            콩이라 불리는 것은 일종의 관용어로 쓰였답니다.
+            """)
 
            
 
