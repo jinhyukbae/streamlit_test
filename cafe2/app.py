@@ -90,7 +90,7 @@ fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜
 
 st.plotly_chart(fig_forth)
 
-st.write(first[first('HOT') != True])
+st.write(first[('hot != True')])
 
 
 # two['ice'] = (
