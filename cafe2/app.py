@@ -43,9 +43,7 @@ df = pd.read_csv('./cafe2/data.csv', encoding='cp949')
 three = df.iloc[5000:5020]
 two = df.iloc[4588:5129]
 
-
-fig2 = two.iplot(kind='bar', title="제목", xTitle="x축", yTitle="y축")
-st.plotly_chart(fig2)
+df.head()
 
 # fig = px.histogram(two, x="상품명")
 
