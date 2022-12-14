@@ -93,7 +93,7 @@ st.plotly_chart(fig_forth)
 sample = first[first['상품명'].str.contains('아메리카노')]
 st.write(sample)
 
-fug1 = px.histogram(sample x="상품명", y='판매수량')
+fug1 = px.histogram(sample, x="상품명", y='판매수량')
 st.plotly_chart(fug1)
 
 # two['ice'] = (
