@@ -75,6 +75,13 @@ if name == '1분기':
 
     st.plotly_chart(fig_first)
 
+    sample1 = first[first['상품명'].str.contains('아메리카노')]
+
+    st.write("## HOT vs ICE")
+    st.write("### 1분기의 승자는 HOT 입니다.")
+    fug1 = px.histogram(sample1, x="상품명", y='판매수량')
+    st.plotly_chart(fug1)
+
 elif name == '2분기':
 
     total_sum2 = second['판매수량'].sum()
@@ -120,10 +127,11 @@ elif name == '4분기':
 
 # st.plotly_chart(fig_forth)
 
-sample = first[first['상품명'].str.contains('아메리카노')]
-st.write(sample)
+sample1 = first[first['상품명'].str.contains('아메리카노')]
 
-fug1 = px.histogram(sample, x="상품명", y='판매수량')
+st.write("## HOT vs ICE")
+st.write("### 1분기의 승자는 HOT 입니다.")
+fug1 = px.histogram(sample1, x="상품명", y='판매수량')
 st.plotly_chart(fug1)
 
 # two['ice'] = (
