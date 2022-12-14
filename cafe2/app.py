@@ -49,7 +49,7 @@ fig2 = px.line(two,
               y="판매수량",  # y축
               title='Life expectancy in Canada' # Title 
               )
-fig2.show()
+st.plotly_chart(fig2)
 
 # fig = px.histogram(two, x="상품명")
 
