@@ -90,7 +90,7 @@ fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜
 
 st.plotly_chart(fig_forth)
 
-sample = first[first['상품명'].str.contains('HOT')]
+sample = first[first['상품명'].str.contains('아메리카노(HOT)')]
 st.write(sample)
 
 # two['ice'] = (
