@@ -103,6 +103,7 @@ def main() :
     elif choice == cof[4] :
         st.write("# 틀렸습니다.")
     elif choice == cof[5] :
+        st.balloons()
         st.write("# 정답입니다!!!")
         st.write("""
         세계에서 가장 비싼 커피로 알려진 블랙 아이보리 커피는 바로 한번쯤은 들어보셨을 코끼리 똥 커피입니다.
