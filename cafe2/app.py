@@ -53,13 +53,13 @@ forth = df.iloc[3518:]
 # fig = px.histogram(two, x="상품명")
 
 total_sum1 = first['판매수량'].sum()
-st.subheader(f"1분기 총 판매량 {total_sum}잔 팔았습니다.")
+st.subheader(f"1분기 총 판매량 {total_sum1}잔 팔았습니다.")
 total_sum2 = second['판매수량'].sum()
-st.subheader(f"2분기 총 판매량 {total_sum}잔 팔았습니다.")
+st.subheader(f"2분기 총 판매량 {total_sum2}잔 팔았습니다.")
 total_sum3 = three['판매수량'].sum()
-st.subheader(f"3분기 총 판매량 {total_sum}잔 팔았습니다.")
+st.subheader(f"3분기 총 판매량 {total_sum3}잔 팔았습니다.")
 total_sum4 = forth['판매수량'].sum()
-st.subheader(f"4분기 총 판매량 {total_sum}잔 팔았습니다.")
+st.subheader(f"4분기 총 판매량 {total_sum4}잔 팔았습니다.")
 
 
 st.sidebar.header('Menu')
