@@ -396,8 +396,7 @@ elif name == '전체':
 
     with col30:
 	    st.subheader("3.흑당라떼 HOT 410잔")
-    st.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQG-slka98iv-AJBjL1Sm8ZNph6qnIeagVq_4coVPbpzrYauTwAUYZDGy29VW9O8cUWpk&usqp=CAU")
-
+    st.image("https://dev-paris.shoplic.store/wp-content/uploads/200605_%E1%84%92%E1%85%B3%E1%86%A8%E1%84%83%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%A1%E1%84%84%E1%85%A6-1280x1280.jpg")
 
 # fig_first = px.histogram(first, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 1분기 음료 판매량' )
 
