@@ -299,9 +299,8 @@ elif name == '4분기':
     
     fug4 = px.histogram(sample4, x="상품명", y='판매수량')
     st.plotly_chart(fug4)
-
-
-   st.write("## BEST 3")
+    
+    st.write("## BEST 3")
     col19, col20, col21 = st.columns(3)
     with col19:
         st.subheader("1.아메리카노 HOT 3772잔")
@@ -328,6 +327,8 @@ elif name == '4분기':
     with col24:
 	    st.subheader("3.카페모카 ICE 139잔")
 	    st.image("http://gdimg.gmarket.co.kr/971781522/still/600?ver=0")
+
+  
 
 
 
