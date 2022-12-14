@@ -120,7 +120,7 @@ if name == '1분기':
 
     if choice == bean[1] :
         st.write("# 틀렸습니다.")
-    elif choice == cof[2] :
+    elif choice == bean[2] :
         st.balloons()
         st.write("# 정답입니다!!!")
         st.write("""
