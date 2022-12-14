@@ -257,11 +257,21 @@ elif name == '전체':
     total_sum5 = df['판매수량'].sum()
     st.subheader(f"21년 총 판매량 {total_sum5}잔 팔았습니다.")
 
+
+
+
     sample5 = df[df['상품명'].str.contains('아메리카노')]
 
     st.write("## HOT vs ICE")
     st.write("### 21년의 승자는 ICE 입니다.")
     st.write("### 한국인은 아아의 민족 입니다.")
+
+
+    fig_all = px.histogram(df, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 21년 총 음료 판매량' )
+
+    st.plotly_chart(fig_all)
+
+
     
     fug5 = px.histogram(sample5, x="상품명", y='판매수량')
     st.plotly_chart(fug5)
