@@ -65,30 +65,36 @@ st.subheader(f"4분기 총 판매량 {total_sum4}잔 팔았습니다.")
 
 
 st.sidebar.header('Menu')
-name = st.sidebar.selectbox('Name', ['종류를 선택해주세요','따뜻한커피','차가운커피'])
+name = st.sidebar.selectbox('분기별 판매량', ['종류를 선택해주세요','1분기','2분기','3분기','4분기'])
 
-if name == '따뜻한커피':
-    st.image("https://i.pinimg.com/736x/0c/84/ab/0c84ab632174745bd69862f24fd21cc7.jpg")
+if name == '1분기':
+    fig_first = px.histogram(first, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 1분기 음료 판매량' )
 
-elif name == '차가운커피':
-    st.image("https://w.namu.la/s/58397a721e13604b779350324ba029e64b8c2a645ccc40bfc2188d61af804072fa7a18f5de18688f75662a46571480912b989c1e9b317d78d885918f0d15c933e45739bfdd551c28f9c22e8a56f6e480f579a75d8f8bd85fe86cec99bdbb84c333c12612db37e41fd4bfb653d120e28d")
+    st.plotly_chart(fig_first)
+
+elif name == '2분기':
+    fig_second = px.histogram(second, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 2분기 음료 판매량' )
+
+    st.plotly_chart(fig_second)
 
 
-fig_first = px.histogram(first, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 1분기 음료 판매량' )
 
-st.plotly_chart(fig_first)
+
+# fig_first = px.histogram(first, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 1분기 음료 판매량' )
+
+# st.plotly_chart(fig_first)
   
-fig_second = px.histogram(second, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 2분기 음료 판매량' )
+# fig_second = px.histogram(second, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 2분기 음료 판매량' )
 
-st.plotly_chart(fig_second)
+# st.plotly_chart(fig_second)
 
-fig_third = px.histogram(third, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 3분기 음료 판매량' )
+# fig_third = px.histogram(third, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 3분기 음료 판매량' )
 
-st.plotly_chart(fig_third)
+# st.plotly_chart(fig_third)
 
-fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 4분기 음료 판매량' )
+# fig_forth = px.histogram(forth, x="상품명", y='판매수량',title='강원랜드의 한 무인 카페의 4분기 음료 판매량' )
 
-st.plotly_chart(fig_forth)
+# st.plotly_chart(fig_forth)
 
 sample = first[first['상품명'].str.contains('아메리카노')]
 st.write(sample)
