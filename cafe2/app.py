@@ -257,7 +257,7 @@ elif name == '전체':
     total_sum5 = df['판매수량'].sum()
     st.subheader(f"21년 총 판매량 {total_sum5}잔 팔았습니다.")
 
-sample4 = df[df['상품명'].str.contains('아메리카노')]
+    sample4 = df[df['상품명'].str.contains('아메리카노')]
 
     st.write("## HOT vs ICE")
     st.write("### 4분기의 승자는 HOT 입니다.")
