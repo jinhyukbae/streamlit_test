@@ -32,4 +32,3 @@ st.write(pd.Series(model.coef_, index=["age", "bmi", "children", "smoker", "sex_
 
 
 
-
