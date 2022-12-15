@@ -56,28 +56,16 @@ st.checkbox(
     value=False,
     key='smoker'
 )
-st.write(st.session_state['smoker'])
+# st.write(st.session_state['smoker'])
 
+# region : 지역
+st.selectbox(
+    label="지역",
+    options=["북동", "북서", "남동", "남서"],
+    index=2,
+    key='region'
+)
+st.write(st.session_state['region'])
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
+if st.button('예측'):
+    st.balloons()
