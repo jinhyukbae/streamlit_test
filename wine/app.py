@@ -15,7 +15,7 @@ st.write(
     * [Colab 노트북](https://colab.research.google.com/drive/1p5AZ6-a_W8Hmuxd0qtv2s-LQGHNlLn1J?usp=sharing)
     * 사용한 데이터 (wine.csv)
         * 출처 : https://www.kaggle.com/datasets/akhil0007/wine-data
-    * 실행 결과 : <https://qus0in-streamlit-example-03-knnapp-9lgbwh.streamlit.app/>
+    * 실행 결과 : <https://jinhyukbae-streamlit-test-wineapp-23qihv.streamlit.app/>
     """
 )
 
